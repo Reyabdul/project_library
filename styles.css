@@ -1,0 +1,12 @@
+.book-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 8Rem;
+  gap: 2rem
+}
+
+.book {
+  text-align: center;
+  border: 2px black solid;
+
+}
