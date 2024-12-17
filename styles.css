@@ -1,12 +1,40 @@
 .book-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 8Rem;
-  gap: 2rem
+
+  grid-template-columns: 300px 300px 300px 300px 300px 300px;
+
+  margin-top: 80px;
+  gap: 20px;
 }
 
-.book {
-  text-align: center;
-  border: 2px black solid;
 
+
+.book-div{
+  text-align: center;
+  border: 2px solid black;
+}
+
+.remove-button{
+  justify-self: flex-end;
+  align-self: center;
+}
+
+
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.add-btn{
+  padding: 10px 10px 10px 10px;
 }
